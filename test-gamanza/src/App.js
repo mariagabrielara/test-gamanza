@@ -1,12 +1,16 @@
 import React from 'react';
 import './App.css';
 
-import { Container } from 'react-bootstrap';
 import Menu from './components/Menu/Menu';
+import Character from './components/Character/Character';
+import CharactersList from './components/CharactersList/CharactersList';
 
 function App() {
   return (
-    <Menu />
+    <div>
+      <Menu />
+      <CharactersList />
+    </div>
   );
 }
 

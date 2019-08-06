@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Navbar, Nav } from 'react-bootstrap';
 
-const Menu = props => {
+const menu = props => {
     return(
         <Navbar bg="dark" variant="dark">
             <Nav className="mr-auto">
@@ -13,4 +13,4 @@ const Menu = props => {
     );
 }
 
-export default Menu;
+export default menu;
