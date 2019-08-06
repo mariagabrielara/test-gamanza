@@ -10,7 +10,7 @@ const Death = props => {
                 <Card.Title>{props.deathName}</Card.Title>
                 <Card.Text>
                     {props.cause}<br />
-                    {props.responsible}<br />
+                    {props.resposible}<br />
                     {props.lastWords}<br />
                 </Card.Text>
             </Card.Body>
