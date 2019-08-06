@@ -1,14 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import { Container } from 'react-bootstrap';
+import Menu from './components/Menu/Menu';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       
-      </header>
-    </div>
+    <Menu />
   );
 }
 
